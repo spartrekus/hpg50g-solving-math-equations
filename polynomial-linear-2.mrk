@@ -1,0 +1,60 @@
+
+!tex
+!gfx
+!gpath{figs/}
+\usepackage{enumitem}
+!begin
+!mathlist
+
+
+!title Mathematics with the HP48G Calc
+!author GNU Author
+!date 2006 February
+!maketitle
+
+
+!section Systems of Equations
+!subsection System with one unknown 
+>> Example (1)
+!qu  $ 4x^2 +3x -3 =  0 $ 
+
+
+!subsection Polynomial system
+>> Example (1)
+!qu    $ x^2  +4y^2 =  3 $ 
+!qu    $ x   = -5 y^2  $ 
+!qu    $ -z^2 = 3x $ 
+
+
+
+!subsection Linear system
+>> Example (1)
+!qu    $ 2x   -4y  +5z =   101 $ 
+!qu    $ 4x   +6y  -10z = -21 $ 
+!qu    $ 13x  -2z = -30y $ 
+
+
+
+
+
+!subsection System with two equations  
+>> Example (1)
+!qu     $ 4  =  \sqrt{ 5 y x   }  $ 
+!qu     $ 2 = \sqrt{ \frac{ 3 \dot x } {y}    } $ 
+
+
+
+
+!subsection System with more advanced equations  
+>> Example (1)
+!qu     $ z^3 = y^2 \cdot x   $ 
+!qu     $ \sqrt{ x  } = log( 3 z^2 ) $ 
+!qu     $  5 z x = y^x $ 
+
+
+
+!enddoc
+
+
+
+
