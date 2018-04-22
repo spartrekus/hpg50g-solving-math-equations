@@ -2,8 +2,11 @@
 !tex
 //!packages
 !gfx
+\usepackage{enumitem}
 !gpath{figs/}
 !begin
+!mathlist
+
 
 !title Mathematics with the HP48G Calc
 !author GNU Author
@@ -12,18 +15,17 @@
 
 !section Linear Systems  
 System of linear equations is a set of equations. The equations have the same set of variables.
+The solution can be obtained for instance with the Cramer's rule. 
+Other methods are available.
 
 !subsection Example 1 
 A first basic example is given as follows:
-> Linear system (1)
--    $ 3x + 2y   -z = 1 $ 
--    $ 2x - 2y  +4z = -1 $ 
--    $ -x + 0.5y -z = 0 $ 
+>> Linear system (1)
+!qu    $ 3x + 2y   -z = 1 $ 
+!qu    $ 2x - 2y  +4z = -1 $ 
+!qu    $ -x + 0.5y -z = 0 $ 
 
->  The solution is:  
--  $ x = 1 $ 
--  $ y = -2 $ 
--  $ z = -2 $ 
+> The solution is:   $ x = 1 $,  $ y = -2 $,  $ z = -2 $  
 
 
 >  The solution with HP48g with image of the calculator: 
@@ -43,4 +45,9 @@ A first basic example is given as follows:
 !img[0.33]{20180422143232-linear01-p5.png}
 ~
 !img[0.33]{20180422143232-linear01-p6.png}
+
+
+
+!enddoc
+
 
